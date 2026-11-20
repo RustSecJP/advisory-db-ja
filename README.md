@@ -1,16 +1,12 @@
-# RustSec Advisory Database（文書の日本語訳）
+# RustSec Advisory Database
 
-> **これは [rustsec/advisory-db](https://github.com/rustsec/advisory-db) の README と報告手順書の、非公式な日本語訳です。** RustSec による確認や公認を受けたものではありません。
->
-> **このリポジトリは助言データベースではありません。** 助言の本体は [rustsec.org](https://rustsec.org/advisories/) にあります。RustSecJP は RUSTSEC の助言 ID を発行しません。脆弱性の報告は、必ず原文の手順に従って、本家へ行ってください。
->
-> **読むのはこちら: https://rustsecjp.github.io/advisory-db-ja/**
->
-> This is an unofficial Japanese translation of the RustSec advisory-db README and contributing guides. It is **not** an advisory database and is not affiliated with RustSec.
+[![原文][original-image]][original-link]
+![日本語訳: 非公式][unofficial-image]
+[![Project Chat][chat-image]][chat-link]
 
-以下は、原文の README の日本語訳です。
-
----
+> [!NOTE]
+> これは [rustsec/advisory-db](https://github.com/rustsec/advisory-db) の README と報告手順書の**非公式な日本語訳**です。RustSec による確認や公認を受けたものではありません。**このリポジトリは助言データベースではなく、RUSTSEC の助言 ID も発行しません。** 助言の本体は [rustsec.org](https://rustsec.org/advisories/) にあり、脆弱性の報告は本家へ行ってください。
+> This is an unofficial Japanese translation of the docs. It is not an advisory database.
 
 RustSec Advisory Database は、<https://crates.io> で公開されている Rust のクレートに対して出された、セキュリティ助言（アドバイザリ）のリポジトリです。人が読みやすい形の助言データベースは、<https://rustsec.org/advisories/> にあります。
 
@@ -30,6 +26,10 @@ RustSec Advisory Database は、<https://crates.io> で公開されている Rus
 脆弱性を見つけたら、上流（そのクレートの開発元）のセキュリティポリシーに従って報告してください。その後、下のテンプレートを使って Pull Request を開くことで、助言を作成できます。詳しくは[助言を作る](https://rustsecjp.github.io/advisory-db-ja/how-to-report.html)を見てください。
 
 保守されていないクレートについて助言を出す前に、[保守されていない crate の助言](https://rustsecjp.github.io/advisory-db-ja/unmaintained.html)を見てください。
+
+<a href="https://rustsecjp.github.io/advisory-db-ja/how-to-report.html">
+  <img alt="脆弱性を報告する" width="250px" height="60px" src="https://rustsec.org/img/report-vuln-button.svg">
+</a>
 
 ## 助言の書式
 
@@ -136,9 +136,13 @@ patched = [">= 1.2.0"]
 
 ## ライセンス
 
-このリポジトリのすべての内容は、別に定めのある場合を除き、パブリックドメインに置かれています（[CC0 1.0](https://github.com/RustSec/advisory-db/blob/main/LICENSES/CC0-1.0.txt)）。
+原文のリポジトリのすべての内容は、別に定めのある場合を除き、パブリックドメインに置かれています。
 
-例外は、[GitHub Advisory Database](https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features#advisory-database) から取り込まれた助言で、[CC-BY 4.0](https://github.com/RustSec/advisory-db/blob/main/LICENSES/CC-BY-4.0.txt) ライセンスの下に置かれています。これらの助言には、ライセンスを明示する `license` フィールドと、適切な帰属表示のために元の助言を指す `url` フィールドが含まれます。
+[![Public Domain](http://i.creativecommons.org/p/zero/1.0/88x31.png)](https://github.com/RustSec/advisory-db/blob/main/LICENSES/CC0-1.0.txt)
+
+例外は、[GitHub Advisory Database](https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features#advisory-database) から取り込まれた助言で、CC-BY 4.0 ライセンスの下に置かれています。これらの助言には、ライセンスを明示する `license` フィールドと、適切な帰属表示のために元の助言を指す `url` フィールドが含まれます。
+
+[![Creative Commons Attribution](https://licensebuttons.net/l/by/4.0/88x31.png)](https://github.com/RustSec/advisory-db/blob/main/LICENSES/CC-BY-4.0.txt)
 
 [Markdown]: https://www.markdownguide.org/
 [TOML]: https://github.com/toml-lang/toml
@@ -147,6 +151,10 @@ patched = [">= 1.2.0"]
 [trivy]: https://aquasecurity.github.io/trivy/
 [dependabot]: https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates
 
----
+[//]: # (badges)
 
-RustSecJP は非公式のコミュニティです。RustSec、Rust Project、Rust Foundation とは提携していません。出典の詳細は [NOTICE.md](NOTICE.md) にあります。
+[original-image]: https://img.shields.io/badge/原文-rustsec%2Fadvisory--db-blue.svg
+[original-link]: https://github.com/rustsec/advisory-db
+[unofficial-image]: https://img.shields.io/badge/日本語訳-非公式-orange.svg
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-blue.svg
+[chat-link]: https://rust-lang.zulipchat.com/#narrow/stream/146229-wg-secure-code/
