@@ -8,6 +8,7 @@ source: https://github.com/rustsec/advisory-db
 license: CC0 1.0
 license_url: https://github.com/rustsec/advisory-db/blob/main/LICENSE.txt
 version: 2026-11-19 時点（コミット 074ea9a）
+translated: 2026-11-20
 disclaimer: RustSec・Rust Project・Rust Foundation とは提携していません。このサイトは助言データベースではなく、RUSTSEC の助言 ID も発行しません。
 nav:
   - {file: how-to-report.html, title: 助言を作る}
