@@ -1,0 +1,18 @@
+short: RustSec Advisory Database
+title: RustSec Advisory Database の文書
+original_title: RustSec Advisory Database (README, CONTRIBUTING ほか)
+seo_title: RustSec Advisory Database の文書（advisory-db README・CONTRIBUTING 日本語訳）
+summary: Rust の脆弱性データベース RustSec（advisory-db）の README と報告手順書の、非公式な日本語訳。データベースの概要、助言（アドバイザリ）の書式、助言の作り方、保守されていない crate の助言の方針を訳している。
+author: RustSec（Rust Secure Code WG）
+source: https://github.com/rustsec/advisory-db
+license: CC0 1.0
+license_url: https://github.com/rustsec/advisory-db/blob/main/LICENSE.txt
+version: 2026-11-19 時点（コミット 074ea9a）
+disclaimer: RustSec・Rust Project・Rust Foundation とは提携していません。このサイトは助言データベースではなく、RUSTSEC の助言 ID も発行しません。
+nav:
+  - {file: how-to-report.html, title: 助言を作る}
+chapters:
+  - {file: overview.html, title: 概要と助言の書式（README）}
+  - {file: how-to-report.html, title: 助言を作る（CONTRIBUTING）}
+  - {file: example-advisory.html, title: 助言の例}
+  - {file: unmaintained.html, title: 保守されていない crate の助言}
