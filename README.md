@@ -138,7 +138,7 @@ patched = [">= 1.2.0"]
 
 | | |
 |---|---|
-| 原文の版 | 2026-11-19 時点（コミット [`074ea9a`](https://github.com/rustsec/advisory-db/commit/074ea9a7ed)） |
+| 原文の版 | 2026-11-19 時点（コミット [`074ea9a`](https://github.com/rustsec/advisory-db/commit/074ea9a7ed619f511b5b7374c7a97e98d1e98be4)） |
 | 翻訳日 | 2026-11-20 |
 
 原文がこの版より後に更新されている場合、訳は古い内容のままです。
