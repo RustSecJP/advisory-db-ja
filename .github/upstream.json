@@ -1,1 +1,15 @@
-{n  "upstreams": [n    {n      "repo": "rustsec/advisory-db",n      "branch": "main",n      "paths": [n        "README.md",n        "CONTRIBUTING.md",n        "EXAMPLE_ADVISORY.md",n        "HOWTO_UNMAINTAINED.md"n      ],n      "base": "074ea9a7ed619f511b5b7374c7a97e98d1e98be4"n    }n  ]n}
+{
+  "upstreams": [
+    {
+      "repo": "rustsec/advisory-db",
+      "branch": "main",
+      "paths": [
+        "README.md",
+        "CONTRIBUTING.md",
+        "EXAMPLE_ADVISORY.md",
+        "HOWTO_UNMAINTAINED.md"
+      ],
+      "base": "074ea9a7ed619f511b5b7374c7a97e98d1e98be4"
+    }
+  ]
+}
